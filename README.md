@@ -11,6 +11,7 @@ SYSTEM ENGINEERING DEVOPS
 
 
 *List of topics/projects*:
+	
 	BASH:
 		-> SHELL BASICS.
 		-> SHELL PERMISSIONS.
