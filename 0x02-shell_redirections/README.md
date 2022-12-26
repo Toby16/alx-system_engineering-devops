@@ -4,8 +4,6 @@ SHELL, I/O REDIRECTIONS AND FILTERS
 
 
 	Shell, I/O Redirection
-
-
 		:What do the commands "head", "tail", "find", "wc", "sort", "uniq", "grep", "tr" do?
 		:How to redirect standard output to a file
 		:How to get standard input from a file instead of the keyboard
@@ -22,8 +20,6 @@ SHELL, I/O REDIRECTIONS AND FILTERS
 										  ->> awk
 
 	Special Characters
-
-
 		:What are special characters?
 		:Special characters ->> Whitespaces
 				    ->> Expansion
@@ -43,8 +39,6 @@ SHELL, I/O REDIRECTIONS AND FILTERS
 				    ->> Background
 
 	Other Man Pages
-
-
 		:How to display a line of text
 		:How to concatenate files and print on the standard output
 		:How to reverse a string
