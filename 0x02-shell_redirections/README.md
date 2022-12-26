@@ -19,7 +19,6 @@ SHELL, I/O REDIRECTIONS AND FILTERS
 										  ->> sed
 										  ->> awk
 
-
 	Special Characters
 		:What are special characters?
 		:Special characters ->> Whitespaces
@@ -38,7 +37,6 @@ SHELL, I/O REDIRECTIONS AND FILTERS
 				    ->> Globs -> Wildcard
 				    ->> Home directory
 				    ->> Background
-
 
 	Other Man Pages
 		:How to display a line of text
