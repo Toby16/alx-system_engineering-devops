@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # bash script that displays:
 # 	the content of the current directory
 # 	in list format
@@ -6,5 +6,9 @@
 
 for file in *
 do
-    echo "$file" | cut -d'-' -f2
+	if [[ -f "$file" ]]
+	then
+		name=$(echo "$file" | cut -d'-' -f2-)
+		echo "$name"
+	fi
 done
