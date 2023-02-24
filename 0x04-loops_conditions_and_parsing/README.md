@@ -1,1 +1,1 @@
-# :male-technologist:
+# :technologist:
