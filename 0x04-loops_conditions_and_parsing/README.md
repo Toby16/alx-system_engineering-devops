@@ -1,1 +1,1 @@
-# :male-technologist::skin-5:
+# :male-technologist:
