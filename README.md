@@ -12,7 +12,8 @@
 
 :book:*topics/projects*:
 
-BASH:
+    BASH:
+
         -> SHELL BASICS.
         -> SHELL PERMISSIONS.
         -> SHELL I/O REDIRECTIONS AND FILTERS.
