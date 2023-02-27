@@ -10,8 +10,6 @@
         -> DEVOPS Tool-Chains.
 
 
-:book:*topics/projects*:
-
 ### BASH:
 
         -> SHELL BASICS.
