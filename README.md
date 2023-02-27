@@ -12,7 +12,7 @@
 
 :book:*topics/projects*:
 
-    BASH:
+BASH:
 
         -> SHELL BASICS.
         -> SHELL PERMISSIONS.
