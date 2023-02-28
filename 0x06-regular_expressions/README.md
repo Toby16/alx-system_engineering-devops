@@ -4,11 +4,23 @@
 <br>
 `Regex` `DevOps` `Ruby`
 
-`This project was built using Oniguruma (Regex library used by Ruby by default)``
+`This project was built using Oniguruma (Regex library used by Ruby by default)`
 
 ## :book:GENERAL
 
     :Regular Expression (Basics)
+        => Basic Syntax
+        => Literal Characters
+        => Non-Printable Characters
+        => Character Classes/Sets
+        => Short-Hand Character Classes
+        => The Dot '.'
+        => Anchors
+        => Alternation
+        => Greedy & Lazy Repetition
+        => Grouping and Capturing
+        => Substitution
+
     :Regular Expression (Advanced)
 
-    USE A REGULAR EXPRESSION AGAINST A PROBLEM: NOW YOU HAVE 2 PROBLEMS:clown:
+    USE A REGULAR EXPRESSION AGAINST A PROBLEM: NOW YOU HAVE 2 PROBLEMS:clown_face:
