@@ -22,5 +22,10 @@
         => Substitution
 
     :Regular Expression (Advanced)
+        => Back-References
+        => Look-Around & Look-Behind Assertions
+        => Conditionals
+        => Recursive Patterns
+        => Unicode
 
-    USE A REGULAR EXPRESSION AGAINST A PROBLEM: NOW YOU HAVE 2 PROBLEMS:clown_face:
+    USE A REGULAR EXPRESSION AGAINST A PROBLEM: NOW YOU HAVE 2 PROBLEMS🤡
