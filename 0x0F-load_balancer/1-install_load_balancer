@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Install and configure HAProxy on your server
+
+sudo apt-get update -y && sudo apt-get install haproxy -y
+
+sudo bash -c 'echo "ENABLED=1" >> /tmp/haproxy_tmp'
+sudo bash -c 'cat /tmp/haproxy_tmp >> /etc/default/haproxy'
+
+echo "
+frontend my_frontend
+    bind *:80
+    option forwardfor
+    default_backend my_backend
+
+backend my_backend
+    balance roundrobin
+    server 166855-web-o1 34.232.68.143 check port 80
+    server 166855-web-02 54.160.119.225 check port 80
+    option httpchk
+    option httpclose
+" >> /etc/haproxy/haproxy.cfg
+
+sudo service haproxy start
