@@ -10,8 +10,8 @@ sudo bash -c 'cat /tmp/haproxy_tmp >> /etc/default/haproxy'
 echo "
 backend my_backend
 	balance roundrobin
-	server 166855-web-01 100.25.141.117 check port 80
-	server 166855-web-02 54.146.92.178 check port 80
+	server 166855-web-01 100.25.141.117 port 80# check port 80
+	server 166855-web-02 54.146.92.178 port 80# check port 80
 	option httpchk
 	option httpclose
 
