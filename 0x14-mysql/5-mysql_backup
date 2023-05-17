@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# A Bash script that generates a MySQL dump and creates a compressed archive out of it.
+
+current_date=$(date +"%d-%m-%Y")
+db_user="root"
+db_password="$1"
+backup_dir="$HOME/mysql_backup"
+dump_file="backup.sql"
+
+mkdir -p "$backup_dir"
+mysqldump -u "$db_user" -p"$db_password" --all-databases > "$backup_dir/$dump_file"
+tar -czvf "$backup_dir/$current_date.tar.gz" -C "$backup_dir" "$dump_file"
+rm "$backup_dir/$dump_file"
