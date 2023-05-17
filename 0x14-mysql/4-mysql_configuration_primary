@@ -1,4 +1,3 @@
-ubuntu@166855-web-01:~$ sudo cat /etc/mysql/mysql.conf.d/mysqld.cnf
 # Copyright (c) 2014, 2023, Oracle and/or its affiliates.
 #
 # This program is free software; you can redistribute it and/or modify
