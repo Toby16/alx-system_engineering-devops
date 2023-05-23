@@ -31,6 +31,7 @@ if __name__ == "__main__":
         total_tasks += 1
 
     EMPLOYEE_NAME = employee_data_dict["name"]
+    USERNAME = employee_data_dict["username"]
     USER_ID = employee_data_dict["id"]
 
     filename = "{}.csv".format(USER_ID)
@@ -48,7 +49,7 @@ if __name__ == "__main__":
             task_status = "True" if task["completed"] else "False"
             writer.writerow({
                 "USER_ID": USER_ID,
-                "USERNAME": EMPLOYEE_NAME,
+                "USERNAME": USERNAME,
                 "TASK_COMPLETED_STATUS": task_status,
                 "TASK_TITLE": task["title"]
             })
