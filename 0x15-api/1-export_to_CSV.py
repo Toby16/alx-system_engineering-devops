@@ -53,9 +53,9 @@ if __name__ == "__main__":
                          "TASK_TITLE"])
         for task in employee_task_data_dict:
             task_status = True if task["completed"] else False
-            writer.writerow([USER_ID,
-                             EMPLOYEE_NAME,
-                             task_status,
-                             task["title"]])
+            writer.writerow([str(USER_ID),
+                             str(EMPLOYEE_NAME),
+                             str(task_status),
+                             str(task["title"])])
 
     # print("Data exported to {}".format(filename))
