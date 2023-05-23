@@ -34,7 +34,7 @@ if __name__ == "__main__":
     USER_ID = employee_data_dict["id"]
 
     data = {
-        "USER_ID": [
+        USER_ID: [
             {
                 "task": task["title"],
                 "completed": task["completed"],
