@@ -40,7 +40,7 @@ if __name__ == "__main__":
                 "completed": task["completed"],
                 "username": USERNAME
             }
-            for task in completed_tasks
+            for task in employee_task_data_dict  # completed_tasks
         ]
     }
 
