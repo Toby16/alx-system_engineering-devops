@@ -45,4 +45,4 @@ if __name__ == "__main__":
     """
 
     for i in completed_tasks:
-        print(" \t{}".format(i["title"]))
+        print("\t {}".format(i["title"]))
