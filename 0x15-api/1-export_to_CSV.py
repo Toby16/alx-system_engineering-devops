@@ -33,29 +33,22 @@ if __name__ == "__main__":
     EMPLOYEE_NAME = employee_data_dict["name"]
     USER_ID = employee_data_dict["id"]
 
-    """
-    print("Employee {} is done with tasks({}/{}):".format(
-        EMPLOYEE_NAME,
-        task_done_count,
-        total_tasks))
-
-    for i in completed_tasks:
-        print("\t {}".format(i["title"]))
-    """
-
-    # Export data in CSV format
     filename = "{}.csv".format(USER_ID)
-    with open(filename, mode="w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerow(["USER_ID",
-                         "USERNAME",
-                         "TASK_COMPLETED_STATUS",
-                         "TASK_TITLE"])
-        for task in employee_task_data_dict:
-            task_status = True if task["completed"] else False
-            writer.writerow([str(USER_ID),
-                             str(EMPLOYEE_NAME),
-                             str(task_status),
-                             str(task["title"])])
+    with open(filename, mode="w", newline="") as csv_file:
+        fieldnames = ["USER_ID",
+                      "USERNAME",
+                      "TASK_COMPLETED_STATUS",
+                      "TASK_TITLE"]
+        writer = csv.DictWriter(csv_file,
+                                fieldnames=fieldnames,
+                                quoting=csv.QUOTE_ALL)
+        # writer.writeheader()
 
-    # print("Data exported to {}".format(filename))
+        for task in employee_task_data_dict:
+            task_status = "True" if task["completed"] else "False"
+            writer.writerow({
+                "USER_ID": USER_ID,
+                "USERNAME": EMPLOYEE_NAME,
+                "TASK_COMPLETED_STATUS": task_status,
+                "TASK_TITLE": task["title"]
+            })
