@@ -1,0 +1,23 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        add_header X-Served-By 166855-web-01;
+
+        server_name 100.26.173.95;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
+
+        location /airbnb-onepage/ {
+                proxy_pass http://127.0.0.1:5000/airbnb-onepage/;
+        }
+
+        location /healthcheck {
+                return 200 "OK";
+        }
+}
+
