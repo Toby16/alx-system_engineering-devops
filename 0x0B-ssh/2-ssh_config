@@ -1,3 +1,0 @@
-Host 34.232.68.143
-        AddKeysToAgent yes
-        IdentityFile ~/.ssh/id_rsa
