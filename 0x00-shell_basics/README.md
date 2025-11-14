@@ -9,7 +9,7 @@
 * Run the scripts using `bash <script>.sh` command! `script` is the name of the bash file/script.
 <br />or run `chmod u+x <script>.sh && ./<script>.sh` command!
 * All your scripts should be exactly two lines long.
-<br /> `$ wc -l file` should print 2.
+<br /> `$ wc -l <file>` should print 2.
 * The first line of all your files should be exactly `#!/bin/bash`.
 <br /> `$ head -n 1 <file>` must print #!/bin/bash.
 * You are not allowed to use `backticks` `&&` `||` or `;`.
