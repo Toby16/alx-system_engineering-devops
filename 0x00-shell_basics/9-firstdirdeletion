@@ -1,0 +1,2 @@
+#!/bin/bash
+rm -rf /tmp/my_first_directory  # rmdir only works if the directory is empty
