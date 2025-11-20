@@ -11,7 +11,16 @@
 * All your scripts should be exactly two lines long.
 <br /> `$ wc -l <file>` should print 2.
 * The first line of all your files should be exactly `#!/bin/bash`.
-<br /> `$ head -n 1 <file>` must print #!/bin/bash.
+<br /> `$ head -n 1 <file>` must print #!/bin/bash.<br />
+* Run the [check_file.sh](###) script to perform an auto-check for you.
+  ```
+  ~/alx-system_engineering-devops/0x00-shell_basics$ ./check_file.sh <file>
+  number_of_lines <file>
+  first line of <file>
+  ~/alx-system_engineering-devops/0x00-shell_basics$ ./check_file.sh 0-current_working_directory 
+  2 0-current_working_directory
+  #!/bin/bash
+  ```
 * You are not allowed to use `backticks` `&&` `||` or `;`.
 * All your scripts must be executable.
 <br /> To make your file executable, use the `chmod` command: `$ chmod u+x <file>`.
