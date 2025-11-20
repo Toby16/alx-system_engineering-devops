@@ -12,7 +12,7 @@
 <br /> `$ wc -l <file>` should print 2.
 * The first line of all your files should be exactly `#!/bin/bash`.
 <br /> `$ head -n 1 <file>` must print #!/bin/bash.<br />
-* Run the [check_file.sh](###) script to perform an auto-check for you.
+* Run the [check_file.sh](https://github.com/Toby16/alx-system_engineering-devops/blob/02cd306ef18f09cd950bb8f501e59ad7ed4fec95/0x00-shell_basics/check_file.sh) script to perform an auto-check for you.
   ```
   ~/alx-system_engineering-devops/0x00-shell_basics$ ./check_file.sh <file>
   number_of_lines <file>
