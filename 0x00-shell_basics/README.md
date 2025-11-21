@@ -25,3 +25,15 @@
 * All your scripts must be executable.
 <br /> To make your file executable, use the `chmod` command: `$ chmod u+x <file>`.
 <br />
+
+## 📚 RESOURCES
+* [What is "The Shell"?](https://linuxcommand.org/lc3_lts0010.php).
+* [Navigation](https://linuxcommand.org/lc3_lts0020.php).
+* [Looking Around](https://linuxcommand.org/lc3_lts0030.php).
+* [A Guided Tour](https://linuxcommand.org/lc3_lts0040.php).
+* [Manipulating Files](https://linuxcommand.org/lc3_lts0050.php).
+* [Working With Commands](https://linuxcommand.org/lc3_lts0060.php).
+* [Reading man Pages](https://linuxcommand.org/lc3_man_pages/man1.html).
+* [KeyBoard Shortcut for Bash](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/).
+* [LTS](https://wiki.ubuntu.com/LTS).
+* [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)!
