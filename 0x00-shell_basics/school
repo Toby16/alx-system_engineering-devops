@@ -1,2 +1,3 @@
 0	string	SCHOOL	School data
 !:mime	School
+# '$file -C -m school' to create the magic file  # ensure to remove this comment before creating the magic file
