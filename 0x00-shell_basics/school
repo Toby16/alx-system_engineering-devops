@@ -1,2 +1,1 @@
-0 string SCHOOL School
-# '$file -C -m school' to create the magic file  # ensure to remove the comment before creating the magic file
+0 string school SCHOOL School
