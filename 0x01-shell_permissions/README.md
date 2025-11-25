@@ -1,7 +1,7 @@
 # 🔐 SHELL, PERMISSIONS 👥
 `DevOps` `Shell` `Bash` 
 <br /> <br />
-<img src="" alt="0x01-shell_permissions" width="500"/>
+<img src="https://github.com/Toby16/system_engineering-devops/blob/181652ebfcd5ee689f0f62bca8dd9bff1f064f64/assets/0x01-shell_permissions.jpg" alt="0x01-shell_permissions" width="500"/>
 <br /><br />
 
 ## :book: INSTRUCTIONS
@@ -17,8 +17,8 @@
   ~/alx-system_engineering-devops/0x01-shell_permissions$ ./check_file.sh <file>
   number_of_lines <file>
   first line of <file>
-  ~/alx-system_engineering-devops/0x01-shell_permissions$ ./check_file.sh file 
-  2 file
+  ~/alx-system_engineering-devops/0x01-shell_permissions$ ./check_file.sh 0-iam_betty 
+  2 0-iam_betty
   #!/bin/bash
   ```
 * You are not allowed to use `backticks` `&&` `||` or `;`.
@@ -27,4 +27,4 @@
 <br />
 
 ## 📚 RESOURCES
-* []()
+* [Permissions](https://linuxcommand.org/lc3_lts0090.php).
