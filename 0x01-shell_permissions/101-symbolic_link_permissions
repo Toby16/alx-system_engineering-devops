@@ -1,0 +1,2 @@
+#!/bin/bash
+chown -h vincent:staff _hello  # in linux, changing the ownership of a symbolic link using chown changes the target of the symbolic link (ie. without the -h option)
