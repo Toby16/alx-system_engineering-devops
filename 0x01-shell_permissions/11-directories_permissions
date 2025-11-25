@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod =755 --recursive .
+find . -type d -exec chmod ugo+x {} \;
