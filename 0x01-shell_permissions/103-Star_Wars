@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh starwarstel.net
+telnet towel.blinkenlights.nl  # 'ssh starwarstel.net' also works but not for this task
