@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/passwd | tail  # you can also go for `$ tail /etc/passwd`
