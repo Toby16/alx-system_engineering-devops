@@ -22,6 +22,7 @@
   #!/bin/bash
   ```
 * You are not allowed to use `backticks` `&&` `||` or `;`.
+* You are not allowed to use `sed` or `awk`.
 * All your scripts must be executable.
 <br /> To make your file executable, use the `chmod` command: `$ chmod u+x <file>`.
 <br />
