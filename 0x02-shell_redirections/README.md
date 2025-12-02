@@ -1,7 +1,7 @@
 # 📟  SHELL, I/O REDIRECTIONS, AND FILTERS 🔁
 `DevOps` `Shell` `Bash` 
 <br /> <br />
-<img src="" alt="0x02-shell_redirections" width="500"/>
+<img src="https://github.com/Toby16/system_engineering-devops/blob/1c830c4a551042dfa6185fa1eec500a41121e7ec/assets/0x02-shell_redirections.jpeg" alt="0x02-shell_redirections" width="500"/>
 <br /><br />
 
 ## :book: INSTRUCTIONS
