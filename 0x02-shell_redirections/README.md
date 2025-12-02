@@ -12,13 +12,13 @@
 <br /> `$ wc -l <file>` should print 2.
 * The first line of all your files should be exactly `#!/bin/bash`.
 <br /> `$ head -n 1 <file>` must print #!/bin/bash.<br />
-* Run the [check_file.sh]() script to perform an auto-check for you.
+* Run the [check_file.sh](https://github.com/Toby16/alx-system_engineering-devops/blob/04fadd9a761a3177ede25a4d8902c3b7288a7e67/0x02-shell_redirections/check_file.sh) script to perform an auto-check for you.
   ```
-  ~/alx-system_engineering-devops/0x01-shell_permissions$ ./check_file.sh <file>
+  ~/alx-system_engineering-devops/0x02-shell_redirections$ ./check_file.sh <file>
   number_of_lines <file>
   first line of <file>
-  ~/alx-system_engineering-devops/0x01-shell_permissions$ ./check_file.sh 0-iam_betty 
-  2 0-iam_betty
+  ~/alx-system_engineering-devops/0x02-shell_redirections$ ./check_file.sh 0-hello_world 
+  2 0-hello_world
   #!/bin/bash
   ```
 * You are not allowed to use `backticks` `&&` `||` or `;`.
@@ -27,6 +27,7 @@
 <br />
 
 ## 📚 RESOURCES
-* [Permissions](https://linuxcommand.org/lc3_lts0090.php).
-* Man (manual) Pages of `chmod` `sudo` `su` `chown` `chgrp` `id` `groups` `whoami` `adduser` `useradd` `addgroup`.
+* [Shell, I/O Redirection](http://linuxcommand.org/lc3_lts0070.php).
+* [Special Characters (bash)](https://mywiki.wooledge.org/BashGuide/SpecialCharacters).
+* Man (manual) Pages of `echo` `cat` `head` `tail` `find` `wc` `sort` `uniq` `grep` `tr` `rev` `cut` `passwd (5)`.
 <br />
